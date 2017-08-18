@@ -26,78 +26,94 @@
         <!-- тут будет форма -->
       </section>
       <section class="catalog">
-        <!-- тут будет форма -->
-        <ul class= catalog-list>
-          <li class="catalog-item">
-            <p><img src="img/sedona.jpg" width="100" height="100" alt="sedona"></p>
-            <h2><a href="#">sedona</a></h2>
-            <p>Информационный сайт для туристов</p>
-            <p><a class="button-buy" href="#">9 900 руб.</a></p>
-          </li>
-          <li class="catalog-item">
-            <p><img src="img/pinkapp.jpg" width="100" height="100" alt="pink app"></p>
-            <h2><a href="#">pink app</a></h2>
-            <p>
-              Продуктовый лендинг<br>
-              приложения для iOS и Android
-            </p>
-            <p><a class="button-buy" href="#">9 900 руб.</a></p>
-          </li>
-          <li class="catalog-item">
-            <p><img src="img/barbershop.jpg" width="100" height="100" alt="barbershop"></p>
-            <h2><a href="#">barbershop</a></h2>
-            <p>Сайт салона красоты.<br>
-               Для мужчин.Да.
-            </p>
-            <p><a class="button-buy" href="#">9 900 руб.</a></p>
-          </li>
-          <li class="catalog-item">
-            <p><img src="img/mishka.jpg" width="100" height="100" alt="mishka"></p>
-            <h2><a href="#">mishka</a></h2>
-            <p>
-              Интернет-магазин<br>
-              вязаных игрушек
-            </p>
-            <p><a class="button-buy" href="#">9 900 руб.</a></p>
-          </li>
-          <li class="catalog-item">
-            <p><img src="img/aplus.jpg" width="100" height="100" alt="a plus"></p>
-            <h2><a href="#">a plus</a></h2>
-            <p>
-              Лендинг курсов повышения<br>
-              квалификации
-            </p>
-            <p><a class="button-buy" href="#">9 900 руб.</a></p>
-          </li>
-          <li class="catalog-item">
-            <p><img src="img/kbact.jpg" width="100" height="100" alt="kbact"></p>
-            <h2><a href="#">kbact</a></h2>
-            <p>Промо-сайт производителя<br>
-              крафтового кваса
-            </p>
-            <p><a class="button-buy" href="#">9 900 руб.</a></p>
-          </li>
-        </ul>
-        <ul class="pagination-list">
-          <li class="pagination-item pagination-item-current"><a href="#">1</a></li>
-          <li class="pagination-item"><a href="#">2</a></li>
-          <li class="pagination-item"><a href="#">3</a></li>
-          <li class="pagination-item"><a href="#">Следующая</a></li>
-        </ul>
+        <section class="catalog-sorting">
+          <ul class="sorting-type">
+            <li class="sorting-type"><a class="sorting-link" href="#">по цене</a></li>
+            <li class="sorting-type"><a class="sorting-link" href="#">по типу</a></li>
+            <li class="sorting-type"><a class="sorting-link" href="#">по названию</a></li>
+          </ul>
+          <ul class="sorting-value">
+            <li class="sorting-value-descendingly">
+              <a class="button-sorting-descendingly" href="#">по убыванию</a>
+            </li>
+            <li class="sorting-value-ascending">
+              <a class="button-sorting-ascending" href="#">по возрастанию</a>
+            </li>
+          </ul>
+        </section>
+        <section class="catalog-list">
+          <ul class="catalog-items">
+            <li class="item">
+              <p><img src="img/sedona.jpg" width="100" height="100" alt="sedona"></p>
+              <h2><a href="#">sedona</a></h2>
+              <p class="catalog-item-description">Информационный сайт для туристов</p>
+              <p><a class="button-buy" href="#">9 900 руб.</a></p>
+            </li>
+            <li class="item">
+              <p><img src="img/pinkapp.jpg" width="100" height="100" alt="pink app"></p>
+              <h2><a href="#">pink app</a></h2>
+              <p class="catalog-item-description">
+                Продуктовый лендинг
+                приложения для iOS и Android
+              </p>
+              <p><a class="button-buy" href="#">9 900 руб.</a></p>
+            </li>
+            <li class="item">
+              <p><img src="img/barbershop.jpg" width="100" height="100" alt="barbershop"></p>
+              <h2><a href="#">barbershop</a></h2>
+              <p class="catalog-item-description">Сайт салона красоты.
+                Для мужчин.Да.
+              </p>
+              <p><a class="button-buy" href="#">9 900 руб.</a></p>
+            </li>
+            <li class="item">
+              <p><img src="img/mishka.jpg" width="100" height="100" alt="mishka"></p>
+              <h2><a href="#">mishka</a></h2>
+              <p class="catalog-item-description">
+                Интернет-магазин
+                вязаных игрушек
+              </p>
+              <p><a class="button-buy" href="#">9 900 руб.</a></p>
+            </li>
+            <li class="item">
+              <p><img src="img/aplus.jpg" width="100" height="100" alt="a plus"></p>
+              <h2><a href="#">a plus</a></h2>
+              <p class="catalog-item-description">
+                Лендинг курсов повышения
+                квалификации
+              </p>
+              <p><a class="button-buy" href="#">9 900 руб.</a></p>
+            </li>
+            <li class="item">
+              <p><img src="img/kbact.jpg" width="100" height="100" alt="kbact"></p>
+              <h2><a href="#">kbact</a></h2>
+              <p class="catalog-item-description">
+                Промо-сайт производителя
+                крафтового кваса</p>
+              <p><a class="button-buy" href="#">9 900 руб.</a></p>
+            </li>
+          </ul>
+          <ul class="pagination-list">
+            <li class="pagination-item pagination-item-current"><a href="#">1</a></li>
+            <li class="pagination-item"><a href="#">2</a></li>
+            <li class="pagination-item"><a href="#">3</a></li>
+            <li class="pagination-item"><a href="#">Следующая</a></li>
+          </ul>
+        </section>
       </section>
     </main>
     <footer class="main-footer">
-      <section class="map">
-        <img src="map.jpg" width="100" height="100" alt="карта">
-      </section>
-      <section class="adress-info">
-        <h3>Nёrds design studio</h3>
-        <p>
-          191186, Санкт-Петербург,<br>
-          ул. Б. Конюшенная, д. 19/8
-        </p>
-        <p>тел. +7 (812) 275-75-75</p>
-        <p><a class="button-write-us" href="#">Напишите нам</a></p>
+      <section class="location">
+        <section class="map"><img src="map.jpg" width="100" height="100" alt="карта"></section>
+        <section class="adress">
+          <h3>Nёrds design studio</h3>
+          <p class="adress-info">
+            191186, Санкт-Петербург,
+            ул. Б. Конюшенная, д. 19/8
+          </p>
+          <p>тел. +7 (812) 275-75-75</p>
+          <p><a class="button-write-us" href="#">Напишите нам</a></p>
+        </section>
       </section>
       <section class="social">
       <ul class="footer-social">
