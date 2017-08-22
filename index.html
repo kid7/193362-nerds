@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main-header">
       <nav class="main-navigation">
         <a class="main-header-logo">
-          <img src="img/logo.svg" width="100" height="100"
-            alt="Логотип студии Nerds">
+          <img src="img/logo.svg" width="160" height="65" alt="Логотип студии Nerds">
         </a>
         <ul class="site-navigation">
           <li><a href="about.html">Студия</a></li>
@@ -24,7 +24,7 @@
       <h1 class="visually-hidden">Дизайн-студия Nёrds</h1>
       <div class="top-slider">
         <p>
-          <b class="top-slider-slogan">
+          <b class="slogan-slider">
             Долго, дорого,<br>
             скрупулезно.
           </b>
@@ -37,7 +37,7 @@
       </div>
       <div class="top-slider">
         <p>
-          <b class="top-slider-slogan">
+          <b class="slogan-slider">
             Любим математику<br>
             как никто другой
           </b>
@@ -50,7 +50,7 @@
       </div>
       <div class="top-slider">
         <p>
-          <b class="top-slider-slogan">
+          <b class="slider-slogan">
             Только ночь,<br>
             только хардкор
           </b>
@@ -63,25 +63,25 @@
       </div>
       <section class="products">
         <ul class="products-list">
-          <li>
+          <li class="products-item">
             <h2>Веб-сайты</h2>
-            <p class="products-slogan">
+            <p>
               Мир никогда не будет прежним
               после того как увидит ваш сайт!
             </p>
             <p><a class="button-order" href="#">Заказать</a></p>
           </li>
-          <li>
+          <li class="products-item">
             <h2>Приложения</h2>
-            <p class="products-slogan">
+            <p>
               Покорите топ-10 приложений в
               AppStore и Google Play
             </p>
             <p><a class="button-order" href="#">Заказать</a></p>
           </li>
-          <li>
+          <li class="products-item">
             <h2>Презентации</h2>
-            <p class="products-slogan">
+            <p>
               Вы даже не подозреваете,
               насколько вы изумительны!
             </p>
@@ -100,7 +100,7 @@
           Исповедуем принципы минимализма и чистоты. Ставим математический расчет
           превыше креатива. Работаем не покладая рук, как роботы.
         </p>
-        <h3>Выполняем заказы на разработку:</h3>
+        <h3 hl-services-list>Выполняем заказы на разработку:</h3>
         <ul class="services-list">
           <li>Веб-сайтов любой сложности</li>
           <li>Мобильных предложений для OS и Android</li>
@@ -124,24 +124,26 @@
         <ul class="partners-list">
           <li>
             <a href="https://htmlacademy.ru/intensive/htmlcss">
-              <img src="img/htmlacademy-logo.svg" width="100" height="100" alt="htmlacademy">
+              <img src="img/partner1.png" width="199" height="68" alt="htmlacademy">
             </a>
           </li>
           <li>
-            <a href="#"><img src="img/barbershop-logo.svg" width="100" height="100" alt="barbershop"></a>
+            <a href="#"><img src="img/partner2.png" width="209" height="90" alt="barbershop"></a>
           </li>
           <li>
-            <a href="#"><img src="img/pink-logo.svg" width="100" height="100" alt="pink"></a>
+            <a href="#"><img src="img/partner3.png" width="185" height="52" alt="pink"></a>
           </li>
           <li>
-            <a href="#"><img src="img/mishka-logo.svg" width="100" height="100" alt="mishka"></a>
+            <a href="#"><img src="img/partner4.png" width="173" height="84" alt="mishka"></a>
           </li>
         </ul>
       </section>
     </main>
     <footer class="main-footer">
       <section class="location">
-        <section class="map"><img src="map.jpg" width="100" height="100" alt="карта"></section>
+        <div class="map">
+          <div class="map-marker"></div>
+        </div>
         <section class="adress">
           <h3>Nёrds design studio</h3>
           <p class="adress-info">

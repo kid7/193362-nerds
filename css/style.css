@@ -1,0 +1,49 @@
+body {
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+  font-weight: normal;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 55px;
+  color: #000000;
+  font-weight: 500;
+}
+
+h2 {
+  color: #000000;
+}
+
+.products-item h2 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.item h2 {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.modal-write-us h2 {
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.map {
+  width: 1440px;
+  background-image: url("../img/map.png");
+  background-repeat: no-repeat;
+}
+
+.map-marker {
+  height: 416px;
+  background-image: url("../img/mapmarker.png");
+  background-repeat: no-repeat;
+  background-position: 819px 89px;
+}
